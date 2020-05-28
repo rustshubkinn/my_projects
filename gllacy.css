@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 5px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: none;
+    background-color: #849d8f;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.125;
+}
+
+.container {
+    width: 1146px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 18px;
+}
+
+.main-navigation-wrapper {
+    width: 100%;
+}
+
+.main-navigation-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigation {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-left: auto;
+    margin-right: 630px;
+    padding: 0 auto;
+    text-decoration: underline;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: black;
+    background-color: rgb(247, 246, 243);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.user-navigation {
+    display: flex;
+    align-self: flex-end;
+}
+
+.user-navigation img {
+    background-color: #a1b4a9;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.user-navigation img:hover,
+.user-navigation img:focus {
+    color: black;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.worktime {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.125;
+}
+
+.phone {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.091;
+}
+
+.head-item img {
+width: 650px;
+height: 570;
+background-color: transparent;
+}
+
+.special-offers article {
+    padding: 10px;
+    margin: 10px;
+}
+
+.berry {
+    background-image: url(img/malinafon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #849d8f;
+    border-radius: 15px;
+    width: 560px;
+    height: 229px;
+    position: 0 0;          
+}
+
+.berry h2 {
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.171;
+}
+
+.berry p {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+}
+
+.berry a {
+    background-color: #ed5e3f;
+    border-radius: 15px;
+    box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.choco {
+    background-image: url("img/chocofon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    position: 0 0;
+    width: 560px;
+    height: 229px;
+}
+
+.choco h2 {
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.171;
+}
+
+.choco p {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+}
+
+.choco a {
+    background-color: #ed5e3f;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.catalog {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.catalog p {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.catalog img {
+    border-radius: 50%;
+}
+
+.features {
+    background-image: url(img/waffle.jpg);
+    background-repeat: repeat;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+}
+
+.blog {
+    background-image: url(img/strawberrybackground.jpg);
+    background-repeat:no-repeat;
+    border-radius: 10px;
+    width: 560px;
+    height: 220px;
+    color: black;
+    padding: 10px;
+}
+
+.blog h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.blog a {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.mail {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6f6f6f;
+    background-color: #f8f7f4;
+    border-radius: 10px;
+    width: 560px;
+    height: 220px;
+    padding: 10px;
+}
+
+.mail .email {
+    background-color: #ed5e3f;
+    border-radius: 18px;
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.map {
+    background-image: url("img/map.jpg");   
+    width: 1250px;
+    height: 430px;
+}
+
+.map h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.map p {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.social-button img {
+    background-color: #a1b4a9;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.social-button img:hover,
+.social-button img:focus {
+    color: black;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.about-footer {
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+div .source-href {
+    font-weight: bold;
+}
+
+.footer-copyright img {
+    width: 114px;
+    height: 44px;
+}
+
